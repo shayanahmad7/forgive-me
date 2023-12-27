@@ -1,0 +1,86 @@
+/* styles.css */
+body {
+    background-color: #FFC0CB; /* Light pink background */
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+  }
+  
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This makes the container take the full height of the viewport */
+    text-align: center;
+    
+}
+  
+#emoji img {
+    max-width: 400px; /* Adjust as needed */
+    align-items: center;
+    height: auto;
+
+}
+
+.emoji-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* This centers the children horizontally */
+    position: relative; /* Establish a positioning context for absolute positioning */
+    padding-top: 20px;
+}
+
+.sorry-text-cloud {
+    position: absolute;
+    left: 115px;
+    bottom: 5px;
+    width: 300px; /* Adjust as needed */
+    z-index: 2; /* Ensure it's above the GIF */
+}
+
+.apologetic-gif {
+    z-index: 1; /* Below the text cloud */
+    max-width: 300px; /* Adjust as needed */
+    height: auto;
+}
+  
+.message {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    
+}
+  
+.response-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    gap: 30px; /* Adds space between buttons */  
+        
+}
+    
+.response-buttons button {
+    background-color: #800080;
+    color: white;
+    border: none;
+    padding: 15px 30px; /* Larger buttons */
+    margin: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 15px; /* Larger text in buttons */
+}
+    
+#yesButton {
+    position: absolute;
+    margin-right: 120px;
+}  
+#noButton {
+    position: absolute;
+    margin-left: 120px;
+    transition: 0.5s ease;;
+ 
+}
+  
