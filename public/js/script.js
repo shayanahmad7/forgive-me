@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     // Attach the event listener to the 'No' button
     noButton.addEventListener('mouseover', moveButton);
+    noButton.addEventListener('click', moveButton);
   
     yesButton.addEventListener('click', function() {
       window.location.href = 'yes.html'; // Redirect to the "Yes" page
