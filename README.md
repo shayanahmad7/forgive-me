@@ -17,7 +17,7 @@ The core idea revolves around the theme of apology and forgiveness. The main fea
 This project is built using HTML, CSS, and JavaScript. It showcases the use of basic web development technologies to create an engaging and interactive user experience.
 
 ## Setup and Usage
-To view the project, simply clone the repository to your local machine and open the `index.html` file in a web browser.
+To view the project, simply clone the repository to your local machine, navigate to project directory and run node app.mjs. Link to the project also available above.
 
 ## Contributions
 Contributions, issues, and feature requests are welcome. Feel free to check [issues page](link-to-your-repository-issues) if you want to contribute.
